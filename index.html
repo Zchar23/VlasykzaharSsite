@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>для тих хто хоче забути математику</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">Почати</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Головна</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">Про нас</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">контакти</a></li>
+                            <li class="nav-item"><a class="nav-link" href="pricing.html">Ціни</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Блог</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Портфоліо</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="bg-dark py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2">Сайт для тих хто хоче забути математику після ЗНО/НМТ</h1>
+                                <p class="lead fw-normal text-white-50 mb-4">Піклуючись про, вашн здоров'я ропонуєми вам забути будь-який предмет після здачі тесту!</p>
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Почати</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Дізнатись більше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="data:image/jpeg;base64,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" alt="..." /></div>
+                    </div>
+                </div>
+            </header>
+            <!-- Features section-->
+            <section class="py-5" id="features">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">Пропонуємо також безеоштовний онлайн-курс.</h2></div>
+                        <div class="col-lg-8">
+                            <div class="row gx-5 row-cols-1 row-cols-md-2">
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                                    <h2 class="h5">Загальний тест
+                                    <p class="mb-0">Пройдіть швидкий тест щоб опридітити предмети </div>
+                                <div class="col mb-5 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+                                    <h2 class="h5">Математика
+                                    <p class="mb-0">Тест-1  .</p>
+                                </div>
+                                <div class="col mb-5 mb-md-0 h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Математика</h2>
+                                    <p class="mb-0">Тест-2.</p>
+                                </div>
+                                <div class="col h-100">
+                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                    <h2 class="h5">Результати</h2>
+                                    <p class="mb-0">в кінці ви дізнаєтесь чи потрібна вам допомогоа нашого еолективу.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial section-->
+            <div class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic">"Working with Start Bootstrap templates has saved me tons of development time when building new projects! Starting with a Bootstrap template just makes things easier!"</div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="fw-bold">
+                                        Tom Ato
+                                        <span class="fw-bold text-primary mx-1">/</span>
+                                        CEO, Pomodoro
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog preview section-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-8 col-xl-6">
+                            <div class="text-center">
+                                <h2 class="fw-bolder">From our blog</h2>
+                                <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                <div class="card-body p-4">
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Загальний тест</h5></a>
+                                    <p class="card-text mb-0">Чи потрібно вам це? Пройдіть швидкий тест щоб опридітити предмети.</p>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="fw-bold">Kelly Rowan</div>
+                                                <div class="text-muted">Березень 12, 2024 &middot; 6 min read</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://forms.gle/sMhtioU3hmubyBrx9" alt="..." />
+                                <div class="card-body p-4">
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Математика</h5></a>
+                                    <p class="card-text mb-0">Тест-1 після похдження тесту надсилаємо резкльтат на поту
+									</p>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="fw-bold">Josiah Barclay</div>
+                                                <div class="text-muted">March 23, 2022 &middot; 4 min read</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
+                                <div class="card-body p-4">
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Результати</h5></a>
+                                    <p class="card-text mb-0">в кінці ви дізнаєтесь чи потрібна вам допомогоа нашого еолективу.</p>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                            <div class="small">
+                                                <div class="fw-bold">Evelyn Martinez</div>
+                                                <div class="text-muted">April 2, 2022 &middot; 10 min read</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Call to action-->
+                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
+                            <div class="mb-4 mb-xl-0">
+                                <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
+                                <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+                            </div>
+                            <div class="ms-xl-4">
+                                <div class="input-group mb-2">
+                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
+                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
+                                </div>
+                                <div class="small text-white-50">We care about privacy, and will never share your data.</div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
